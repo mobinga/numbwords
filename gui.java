@@ -43,9 +43,11 @@ public class gui {
         jf.setLocation(50, 50);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-    public static void main(String[] args) throws InterruptedException {
-        gui o = new gui();
 
+    public static void main(String[] args) throws InterruptedException {
+        
+        new gui();
+        
         jtf.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
